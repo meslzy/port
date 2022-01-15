@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2018",
+    "lib": [
+      "ESNext",
+      "dom"
+    ],
+    "rootDir": "source",
+    "outDir": "output",
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ],
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "listEmittedFiles": false,
+    "traceResolution": false,
+    "inlineSourceMap": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "listFiles": false,
+    "strict": true,
+    "pretty": true
+  },
+  "include": [
+    "source/**/*.ts",
+    "types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules/**",
+    "output/**/*.ts"
+  ]
+}
