@@ -8,10 +8,17 @@ declare module "types" {
     };
     return: Promise<number[]>;
   }
-  
-  type available = boolean;
-  
+
+  export interface findAvailablePort {
+    options: {
+      min?: number;
+      max?: number;
+      exclude?: number[];
+    };
+    return: Promise<number>;
+  }
+
   export interface isPortAvailable {
-    return: Promise<available>;
+    return: Promise<boolean>;
   }
 }
