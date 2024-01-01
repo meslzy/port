@@ -1,0 +1,14 @@
+# ide
+.idea/
+
+# node
+node_modules/
+
+# npm
+package-lock.json
+
+# vitest
+coverage/
+
+# rosepack
+dist/
